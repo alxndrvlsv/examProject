@@ -1,0 +1,40 @@
+Start Test
+Current url https://www.onlinetrade.ru/
+Click Catalog
+Move to element
+Click Calculator category
+Current url https://www.onlinetrade.ru/catalogue/kalkulyatory-c361/
+Click right now filter
+Click Pick up filter button
+Scroll Arrow down OK
+Move to element
+Click Product calc 1
+Continue shopping
+Move to element
+Click Product calc 2
+Continue shopping
+Click Cart
+Current url https://www.onlinetrade.ru/basket.html?basket_hash=f33077fc06d579ebab8aff178db898e4
+Сlick continue without registration button
+Current url https://www.onlinetrade.ru/basket.html
+1 394 ₽
+1 221 ₽
+2 615 ₽
+Total Summary Price Good
+Click select city delivery
+Click city delivery
+Click delivery
+Move to element
+Click Cash payment
+Click arrange order button
+Scroll down OK
+Scroll Arrow down OK
+Input Adress Delivery
+Input Name Client
+Input Mobile Client
+Click Order Button
+Current url https://www.onlinetrade.ru/basket_order_view.php?order_id=26380475&order_key=92bb6c52de468a85fb08df1ddff0d261
+Good value word = Заказ оформлен!
+Click Cansel Order Button
+Click Confirm Cansel Order Button
+Finish Test

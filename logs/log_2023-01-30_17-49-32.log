@@ -1,0 +1,99 @@
+
+-----
+Test: test_buy_calc_products.py::test_buy_calc_products (call)
+Start time: 2023-01-30 17:49:34.672618
+Start name method: select_Calculator_category
+
+End time: 2023-01-30 17:49:51.029437
+End name method: select_Calculator_category
+URL: https://www.onlinetrade.ru/catalogue/kalkulyatory-c361/
+
+-----
+
+-----
+Test: test_buy_calc_products.py::test_buy_calc_products (call)
+Start time: 2023-01-30 17:49:51.029437
+Start name method: buy_Products_Calc
+
+
+-----
+Test: test_buy_calc_products.py::test_buy_calc_products (call)
+Start time: 2023-01-30 17:49:51.045449
+Start name method: select_Filters
+
+End time: 2023-01-30 17:49:56.012264
+End name method: select_Filters
+URL: https://www.onlinetrade.ru/catalogue/kalkulyatory-c361/?producer[]=CITIZEN&price1=279&price2=3038&advanced_search=1&preset_id=0&rating_active=0&special_active=1&selling_active=1&producer_active=1&price_active=1&tiporazmer_active=1&razryadnost_displeya_active=1&tsvet_korpusa_active=1&vichislenie_naloga_active=1&cat_id=361
+
+-----
+
+-----
+Test: test_buy_calc_products.py::test_buy_calc_products (call)
+Start time: 2023-01-30 17:49:58.611550
+Start name method: select_Products_Calc_1
+
+End time: 2023-01-30 17:50:00.313620
+End name method: select_Products_Calc_1
+URL: https://www.onlinetrade.ru/catalogue/kalkulyatory-c361/?producer[]=CITIZEN&price1=279&price2=3038&advanced_search=1&preset_id=0&rating_active=0&special_active=1&selling_active=1&producer_active=1&price_active=1&tiporazmer_active=1&razryadnost_displeya_active=1&tsvet_korpusa_active=1&vichislenie_naloga_active=1&cat_id=361&sort=price-desc&page=0
+
+-----
+
+-----
+Test: test_buy_calc_products.py::test_buy_calc_products (call)
+Start time: 2023-01-30 17:50:00.313620
+Start name method: select_Products_Calc_2
+
+End time: 2023-01-30 17:50:25.907335
+End name method: select_Products_Calc_2
+URL: https://www.onlinetrade.ru/catalogue/kalkulyatory-c361/?producer[]=CITIZEN&price1=279&price2=1897&advanced_search=1&preset_id=0&rating_active=0&special_active=1&selling_active=1&producer_active=1&price_active=1&tiporazmer_active=1&razryadnost_displeya_active=1&tsvet_korpusa_active=1&vichislenie_naloga_active=1&cat_id=361
+
+-----
+End time: 2023-01-30 17:50:28.239995
+End name method: buy_Products_Calc
+URL: https://www.onlinetrade.ru/basket.html?basket_hash=12f1330b41495a277f404c89833938f5
+
+-----
+
+-----
+Test: test_buy_calc_products.py::test_buy_calc_products (call)
+Start time: 2023-01-30 17:50:28.239995
+Start name method: basket_1
+
+
+-----
+Test: test_buy_calc_products.py::test_buy_calc_products (call)
+Start time: 2023-01-30 17:50:28.239995
+Start name method: authorization_cart
+
+End time: 2023-01-30 17:50:32.067942
+End name method: authorization_cart
+URL: https://www.onlinetrade.ru/basket.html
+
+-----
+End time: 2023-01-30 17:50:44.471887
+End name method: basket_1
+URL: https://www.onlinetrade.ru/basket.html
+
+-----
+
+-----
+Test: test_buy_calc_products.py::test_buy_calc_products (call)
+Start time: 2023-01-30 17:50:44.471887
+Start name method: basket_2
+
+End time: 2023-01-30 17:50:47.890021
+End name method: basket_2
+URL: https://www.onlinetrade.ru/basket_order_view.php?order_id=26415678&order_key=1b6b2f0164439ef354cb006096ff7e94
+
+-----
+
+-----
+Test: test_buy_calc_products.py::test_buy_calc_products (call)
+Start time: 2023-01-30 17:50:47.890021
+Start name method: finish
+
+End time: 2023-01-30 17:50:50.019261
+End name method: finish
+URL: https://www.onlinetrade.ru/order_actions.php?order_id=26415678&order_key=1b6b2f0164439ef354cb006096ff7e94&order_action=cancel_confirmed
+
+-----
