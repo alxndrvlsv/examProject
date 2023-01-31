@@ -1,12 +1,10 @@
 import time
 
-import allure
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 from base.base_class import Base
-from utilities.logger import Logger
 
 
 class Finish_page(Base):
@@ -46,11 +44,8 @@ class Finish_page(Base):
 
     # Methods
     def finish(self):
-        with allure.step("Finish"):
-            Logger.add_start_step(method="finish")
             self.get_current_url()
             self.assert_word(self.get_Word_Order(), "Заказ оформлен!")
             self.get_screenshot()
             self.click_Cansel_Order_Button()
             self.click_Confirm_Cansel_Order_Button()
-            Logger.add_end_step(url=self.driver.current_url, method="finish")

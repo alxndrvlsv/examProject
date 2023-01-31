@@ -1,6 +1,6 @@
 import time
-import allure
 import pytest
+
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
 
@@ -8,8 +8,9 @@ from pages.calculator_page import Calculator_page
 from pages.basket_page import Basket_page
 from pages.finish_page import Finish_page
 from pages.main_page import Main_page
+from pages.registration_page import Registration_page
 
-@allure.description("Test buy calc products")
+
 def test_buy_calc_products():
     options = webdriver.ChromeOptions()
     options.add_experimental_option('excludeSwitches', ['enable-logging'])
@@ -17,6 +18,8 @@ def test_buy_calc_products():
     driver = webdriver.Chrome(options=options, service=g)
 
     print("Start Test")
+    rg = Registration_page(driver)
+    rg.register_account()
 
     mp = Main_page(driver)
     mp.select_Calculator_category()
