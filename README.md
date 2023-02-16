@@ -8,3 +8,4 @@
 
 Сравнения цены товара 1 и 2 с итоговой ценой
 
+Команда для запуска: python -m pytest -s -v test_buy_calc_products.py
